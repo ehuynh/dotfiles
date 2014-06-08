@@ -10,6 +10,11 @@ alias gpl='git pull --prune'
 
 alias gco='git checkout'
 
+# stashing
+alias gst='git stash'
+alias gstpush='git stash push'
+alias gstpop='git stash pop'
+
 # reset
 alias gr='git reset'
 alias grhcc='git reset --hard HEAD' # Reset HARD to current commit
