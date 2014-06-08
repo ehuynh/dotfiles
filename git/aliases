@@ -8,6 +8,8 @@ alias gp='git push origin HEAD' # Pushes HEAD (current branch) to master
 
 alias gpl='git pull --prune'
 
+alias gco='git checkout'
+
 # reset
 alias gr='git reset'
 alias grhcc='git reset --hard HEAD' # Reset HARD to current commit
