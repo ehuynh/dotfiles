@@ -1,0 +1,5 @@
+# shortcut to this dotfiles path is $DOTFILES
+export DOTFILES=$HOME/.dotfiles
+
+# load aliases
+for file ($DOTFILES/**/aliases) {source $file}
