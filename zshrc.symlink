@@ -1,8 +1,8 @@
 # shortcut to this dotfiles path is $DOTFILES
 export DOTFILES=$HOME/.dotfiles
 
-# load aliases
-for file ($DOTFILES/**/aliases) {source $file}
+# load zsh files
+for file ($DOTFILES/**/*.zsh) {source $file}
 
 # prompt config
 # xterm-256 color chart http://upload.wikimedia.org/wikipedia/en/1/15/Xterm_256color_chart.svg
