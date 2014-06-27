@@ -3,7 +3,3 @@ export DOTFILES=$HOME/.dotfiles
 
 # load zsh files
 for file ($DOTFILES/**/*.zsh) {source $file}
-
-# prompt config
-# xterm-256 color chart http://upload.wikimedia.org/wikipedia/en/1/15/Xterm_256color_chart.svg
-PS1="%F{238}[%F{31}%n%F{238}@%F{106}%m %F{208}%~%F{238}]$%F{253} "
