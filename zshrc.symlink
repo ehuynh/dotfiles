@@ -3,3 +3,6 @@ export DOTFILES=$HOME/.dotfiles
 
 # load zsh files
 for file ($DOTFILES/**/*.zsh) {source $file}
+
+# initialize autocomplete here. e.g. this allows git auto completion
+autoload -U compinit && compinit
