@@ -1,6 +1,12 @@
 # shortcut to this dotfiles path is $DOTFILES
 export DOTFILES=$HOME/.dotfiles
 
+# use .localrc for local configuration
+if [[ -a ~/.localrc ]]
+then
+  source ~/.localrc
+fi
+
 # load zsh files
 for file ($DOTFILES/**/*.zsh) {source $file}
 
