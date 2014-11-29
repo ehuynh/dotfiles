@@ -25,7 +25,7 @@ current_branch() {
 }
 
 current_sha() {
-  echo " %{$fg[yellow]%}$(git rev-parse --short HEAD)%{$reset_color%}"
+  echo " %{$fg[yellow]%}$(git rev-parse --short HEAD 2>/dev/null)%{$reset_color%}"
 }
 
 repo_dirty() {
@@ -41,7 +41,7 @@ needs_push() {
 }
 
 current_branch_name() {
-  git rev-parse --abbrev-ref HEAD
+  git symbolic-ref --short HEAD 2>/dev/null
 }
 
 git_dir() {
