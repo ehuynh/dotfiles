@@ -24,7 +24,14 @@ install_dotfiles () {
     link_files $source $dest
   done
 
-  echo "done"
+  echo "installing dotfiles complete"
+}
+
+run_installers () {
+  echo "running installers"
+  find $DOTFILES_ROOT -name install.sh | while read installer ; do sh "${installer}" ; done
+  echo "completed installers"
 }
 
 install_dotfiles
+run_installers
