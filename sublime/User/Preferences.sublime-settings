@@ -1,0 +1,12 @@
+{
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 13.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 2,
+	"theme": "Soda Light.sublime-theme",
+	"trim_trailing_white_space_on_save": true
+}
