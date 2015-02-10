@@ -12,6 +12,8 @@ alias gpl='git pull --prune'
 
 alias gco='git checkout'
 
+alias gre='git rebase'
+
 # stashing
 alias gst='git stash'
 alias gstpush='git stash push'
