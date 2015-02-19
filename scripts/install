@@ -33,5 +33,8 @@ run_installers () {
   echo "completed installers"
 }
 
+# Ask for the administrator password upfront
+sudo -v
+
 install_dotfiles
 run_installers

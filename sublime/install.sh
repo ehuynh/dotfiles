@@ -20,11 +20,19 @@ init_soda_theme () {
 	fi
 }
 
+
+init_sublime_cli () {
+  if test ! $(which subl); then
+    sudo mkdir -p "/usr/local/bin/" && ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" "/usr/local/bin/subl"
+  fi
+}
+
 if [ -d "$sublime_dir" ]; then
 	echo "installing sublime settings"
 
 	init_user_settings
 	init_soda_theme
+	init_sublime_cli
 
 	echo "completed installing sublime settings"
 fi
