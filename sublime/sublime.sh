@@ -1,3 +1,6 @@
+# Ask for the administrator password upfront
+sudo -v
+
 # sublime dir
 sublime_dir=~/Library/Application\ Support/Sublime\ Text\ 2/Packages
 
