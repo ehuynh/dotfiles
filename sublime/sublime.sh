@@ -1,3 +1,7 @@
+# Sublime
+#
+# Updates sublime with user preferences after initial install
+
 # Ask for the administrator password upfront
 sudo -v
 
