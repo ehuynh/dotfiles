@@ -15,3 +15,9 @@ format-xml () {
       echo "$1" | xmllint --format -
   fi
 }
+
+gen-ssh-keys () {
+  echo "Enter your email: "
+  read emailaddy
+  ssh-keygen -t rsa -C $emailaddy
+}
