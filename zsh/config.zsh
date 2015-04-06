@@ -3,3 +3,6 @@ autoload -U compinit && compinit
 
 # case insensitive completion
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+
+# set default editor to vim
+export EDITOR=vim
