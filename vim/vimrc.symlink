@@ -1,1 +1,6 @@
-syntax on
+syntax on "syntax highlight
+
+set number "line numering
+set relativenumber "relative line numbering
+set showmatch "hightlight matching brace
+set hlsearch "highlight all search results
