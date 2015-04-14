@@ -30,4 +30,10 @@ set relativenumber "relative line numbering
 set showmatch "hightlight matching brace
 set hlsearch "highlight all search results
 
+" Indentation
+set expandtab " dont use tabs
+set shiftwidth=2 " number of spaces used for autoindent
+set softtabstop=2 " number of spaces to use to replace a tab
+
+" Mappings
 inoremap jkl <Esc>
