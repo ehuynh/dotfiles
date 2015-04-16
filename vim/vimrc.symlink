@@ -37,3 +37,6 @@ set softtabstop=2 " number of spaces to use to replace a tab
 
 " Mappings
 inoremap jkl <Esc>
+
+" ruby
+autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete " autocomplete with C-X then C-O
