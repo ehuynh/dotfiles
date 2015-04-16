@@ -4,7 +4,7 @@ alias gs='git status'
 
 alias ga='git add'
 
-alias gc='git commit'
+alias gc='git commit -v'
 
 alias gp='git push origin HEAD' # Pushes HEAD (current branch) to master
 
