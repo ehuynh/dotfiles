@@ -25,7 +25,6 @@ syntax enable
 set background=dark
 colorscheme solarized
 
-set number "line numering
 set relativenumber "relative line numbering
 set showmatch "hightlight matching brace
 set hlsearch "highlight all search results
