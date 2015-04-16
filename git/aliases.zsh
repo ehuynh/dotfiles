@@ -24,3 +24,4 @@ alias glog="git log --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)
 # gitignore files
 alias gitignore-swift='curl https://raw.githubusercontent.com/github/gitignore/master/Swift.gitignore > .gitignore'
 alias gitignore-objc='curl https://raw.githubusercontent.com/github/gitignore/master/Objective-C.gitignore > .gitignore'
+alias gitignore-ruby='curl https://raw.githubusercontent.com/github/gitignore/master/Ruby.gitignore > .gitignore'
