@@ -26,6 +26,12 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+" Allow project specific vimrc
+set exrc
+
+" Stop unsafe vimrc commands such as shell execution and write operations
+set secure
+
 set relativenumber "relative line numbering
 set showmatch "hightlight matching brace
 set hlsearch "highlight all search results
