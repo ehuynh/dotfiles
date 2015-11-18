@@ -23,3 +23,6 @@ brew cask install dash
 
 echo "Installing sublime-text"
 brew cask install sublime-text
+
+echo "Installing iterm"
+brew cask install iterm2
