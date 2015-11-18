@@ -11,3 +11,15 @@ fi
 
 echo "Installing Chisel"
 brew install chisel
+
+echo "Installing Cask"
+brew install caskroom/cask/brew-cask
+
+echo "Installing Reveal"
+brew cask install reveal
+
+echo "Installing Dash"
+brew cask install dash
+
+echo "Installing sublime-text"
+brew cask install sublime-text
