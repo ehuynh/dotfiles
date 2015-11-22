@@ -26,3 +26,10 @@ brew cask install sublime-text
 
 echo "Installing iterm"
 brew cask install iterm2
+
+echo "Installing sourcetree"
+brew cask install sourcetree
+
+echo "Installing flux"
+brew cask install flux
+
