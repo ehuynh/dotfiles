@@ -33,3 +33,11 @@ brew cask install sourcetree
 echo "Installing flux"
 brew cask install flux
 
+echo "Installing Carthage"
+brew install carthage
+
+echo "Installing Charles Proxy"
+brew cask install charles
+
+echo "Installing MacDown"
+brew cask install macdown
