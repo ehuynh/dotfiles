@@ -21,3 +21,12 @@ gen-ssh-keys () {
   read emailaddy
   ssh-keygen -t rsa -C $emailaddy
 }
+
+show-notification () {
+  if [ $# -eq 1 ]
+    then
+      osascript -e "display notification \"\" with title \"$1\""
+    else
+      osascript -e "display notification \"$2\" with title \"$1\""
+  fi
+}
