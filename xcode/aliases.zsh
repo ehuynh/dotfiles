@@ -7,6 +7,3 @@ alias x-pre="open -a 'Xcode6-DP' ."
 
 # clear the derived data folder
 alias fuxcode='rm -rf ~/Library/Developer/Xcode/DerivedData/'
-
-# cocoapods
-alias pi="pod install"
