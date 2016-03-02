@@ -5,3 +5,7 @@ pu () {
 pi () {
   pod install && show-notification "pod install done 👌"
 }
+
+cb () {
+  carthage bootstrap --platform iOS && show-notification "carthage bootstrap done 👌"
+}
