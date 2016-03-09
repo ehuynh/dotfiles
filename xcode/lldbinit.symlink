@@ -2,7 +2,7 @@
 command regex rd 's/^[[:space:]]*$/po [[UIWindow keyWindow] recursiveDescription]/' 's/^(.+)$/po [%1 recursiveDescription]/'
 
 # AutoLayout trace
-command alias alt expr -O -- (NSString *)[[UIWindow keyWindow] _autolayoutTrace]
+command alias alt expr -l objc++ -o -- [[UIWindow keyWindow] _autolayoutTrace]
 
 # Reveal
 command alias reveal_load_sim expr (void*)dlopen("/Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/libReveal.dylib", 0x2);
