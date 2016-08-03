@@ -33,6 +33,7 @@ set exrc
 set secure
 
 set relativenumber "relative line numbering
+set ruler "show the current column in the status bar
 set showmatch "hightlight matching brace
 set hlsearch "highlight all search results
 
