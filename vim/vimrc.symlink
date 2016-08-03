@@ -50,3 +50,7 @@ inoremap jkl <Esc>
 " ruby
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete " autocomplete with C-X then C-O
 autocmd FileType ruby set makeprg=rake " use make as the build tool for ruby files
+
+" enable swiftlint
+let g:syntastic_swift_checkers = ['swiftlint']
+
