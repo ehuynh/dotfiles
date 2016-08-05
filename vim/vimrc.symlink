@@ -15,6 +15,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'keith/swift.vim'
 Bundle 'scrooloose/syntastic'
+Bundle 'ctrlpvim/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
