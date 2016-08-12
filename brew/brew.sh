@@ -15,3 +15,5 @@ brew install chisel
 echo "Installing Carthage"
 brew install carthage
 
+echo "Installing ctags"
+brew install ctags --HEAD
