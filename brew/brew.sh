@@ -7,13 +7,11 @@ if test ! $(which brew)
 then
   echo "Installing Homebrew"
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+  echo "Installing Homebrew Bundle"
+  # install the brew package manager
+  brew tap Homebrew/bundle
 fi
 
-echo "Installing Chisel"
-brew install chisel
-
-echo "Installing Carthage"
-brew install carthage
-
-echo "Installing ctags"
-brew install ctags --HEAD
+# install brew packages
+brew bundle

@@ -1,0 +1,3 @@
+brew "chisel"
+brew "carthage"
+brew "ctags"
