@@ -7,3 +7,6 @@ alias x-pre="open -a 'Xcode6-DP' ."
 
 # clear the derived data folder
 alias fuxcode='rm -rf ~/Library/Developer/Xcode/DerivedData/'
+
+# tag the ios project
+alias ctags-ios="ctags --languages=objc,swift"
