@@ -35,7 +35,8 @@ repo_dirty() {
 }
 
 needs_push() {
-  if [[ -n "$(git cherry -v origin/$(current_branch_name) 2>/dev/null)" ]]; then
+  brinfo=$(git branch -v | grep $(current_branch_name))
+  if [[ $brinfo =~ ("[ahead "[[:digit:]]*]) ]]; then
     echo " %{$fg[red]%}⬆%{$reset_color%} "
   fi
 }
