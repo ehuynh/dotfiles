@@ -29,14 +29,13 @@ current_sha() {
 }
 
 repo_dirty() {
-  if [[ ! $(git status 2>/dev/null) =~ "directory clean" ]]; then
+  if [[ ! $(git status 2>/dev/null) =~ "nothing to commit, working tree clean" ]]; then
     echo " %{$fg[red]%}✗%{$reset_color%}"
   fi
 }
 
 needs_push() {
-  brinfo=$(git branch -v | grep $(current_branch_name))
-  if [[ $brinfo =~ ("[ahead "[[:digit:]]*]) ]]; then
+  if [[ -n "$(git cherry -v origin/$(current_branch_name) 2>/dev/null)" ]]; then
     echo " %{$fg[red]%}⬆%{$reset_color%} "
   fi
 }
