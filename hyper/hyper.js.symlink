@@ -94,7 +94,10 @@ module.exports = {
   plugins: [  
     'hyperterm-material',
     'hyperpower',
-    'hyperborder'
+    'hyperborder',
+    'hyperline',
+    'hyper-blink',
+    'hypercwd'
   ],
 
   // in development, you can create a directory under
