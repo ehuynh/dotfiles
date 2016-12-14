@@ -1,2 +1,2 @@
-# clone user breakpoints
-git clone https://gist.github.com/4cb1bf08ac2888ada7f4.git ~/Library/Developer/Xcode/UserData/xcdebugger
+rm ~/Library/Developer/Xcode/UserData/xcdebugger/Breakpoints_v2.xcbkptlist
+ln -s $DOTFILES/xcode/Breakpoints_v2.xcbkptlist ~/Library/Developer/Xcode/UserData/xcdebugger/Breakpoints_v2.xcbkptlist
