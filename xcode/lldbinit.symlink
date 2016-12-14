@@ -16,3 +16,7 @@ command script import /usr/local/opt/chisel/libexec/fblldb.py
 # Fix Console po frame Printing
 display @import UIKit
 target stop-hook add -o "target stop-hook disable"
+
+### Reveal LLDB commands support - DO NOT MODIFY
+command script import /Applications/Reveal.app/Contents/SharedSupport/Scripts/RevealServerCommands.py
+###
