@@ -1,3 +1,4 @@
 brew "chisel"
 brew "ctags"
 brew "antigen"
+brew "gifify"
