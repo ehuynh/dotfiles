@@ -6,7 +6,7 @@
 sudo -v
 
 # sublime dir
-sublime_dir=~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+sublime_dir=~/Library/Application\ Support/Sublime\ Text\ 3/Packages
 
 init_user_settings () {
 		# symlink the User settings
@@ -30,7 +30,7 @@ init_soda_theme () {
 
 init_sublime_cli () {
   if test ! $(which subl); then
-    sudo mkdir -p "/usr/local/bin/" && ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" "/usr/local/bin/subl"
+    sudo mkdir -p "/usr/local/bin/" && ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" "/usr/local/bin/subl"
   fi
 }
 
