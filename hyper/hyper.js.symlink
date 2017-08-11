@@ -91,12 +91,11 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [  
+  plugins: [
     'hyperterm-material',
     'hyperborder',
     'hyperline',
     'hyper-blink',
-    'hypercwd',
     'hyperlinks',
   ],
 
