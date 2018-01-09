@@ -11,7 +11,7 @@ alias gp='git push origin HEAD' # Pushes HEAD (current branch) to master
 alias gpl='git pull --prune'
 
 alias gco='git checkout'
-
+alias gcop="git branch -l --sort=-committerdate | pick | awk '{ print $1 }' | xargs git checkout"
 alias gre='git rebase'
 
 # diffs
