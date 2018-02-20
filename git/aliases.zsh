@@ -3,6 +3,7 @@ alias g='git'
 alias gs='git status'
 
 alias ga='git add'
+alias gapp='ga -p $(gs | pick | awk '\''{ print $2 }'\'')'
 
 alias gc='git commit -v'
 
