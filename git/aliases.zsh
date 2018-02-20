@@ -21,7 +21,9 @@ alias gd='git diff' # Changes in the working tree not yet staged for the next co
 alias gds='git diff --cached' # Changes between the index and your last commit.
 alias gdh='git diff HEAD' # Changes in the working tree since your last commit
 
+# log
 alias glog="git log --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+alias gls='glog | pick | awk '\''{ print $1 }'\'' | xargs -n1 git show'
 
 # gitignore files
 alias gitignore-swift='curl https://raw.githubusercontent.com/github/gitignore/master/Swift.gitignore > .gitignore'
