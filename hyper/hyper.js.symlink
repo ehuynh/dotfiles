@@ -77,7 +77,12 @@ module.exports = {
     bell: 'SOUND',
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: false
+    copyOnSelect: false,
+
+    // choose theme for hyper-material-box plugin
+    materialBox: {
+      scheme: 'one-dark',
+    }
 
     // URL to custom bell
     // bellSoundURL: 'http://example.com/bell.mp3',
@@ -92,9 +97,9 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyperterm-material',
+    'hyper-material-box',
+    'hyperpower',
     'hyperborder',
-    'hyperline',
     'hyper-blink',
     'hyperlinks',
   ],
