@@ -14,7 +14,9 @@ alias gpl='git pull --prune'
 alias gco='git checkout'
 alias gcop="git branch -l --sort=-committerdate | pick | awk '{ print $1 }' | xargs git checkout"
 
+# rebase
 alias gre='git rebase'
+alias grp='git log --oneline | pick | awk '\''{ print $1 }'\'' | xargs -n 1 -o git rebase -i'
 
 # diffs
 alias gd='git diff' # Changes in the working tree not yet staged for the next commit.
