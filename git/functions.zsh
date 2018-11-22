@@ -2,6 +2,10 @@ pr() {
     open "https://github.com/$(org_name)/$(repo_name)/pull/new/$(branch_name)"
 }
 
+gpf() {
+  git fetch origin && git reset --hard origin/$(branch_name)
+}
+
 org_name() {
  git remote -v | grep -m 1 "(push)" | sed -e "s/.*github.com[:/]\(.*\)\/.*.git.*/\1/"
 }
