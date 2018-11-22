@@ -1,1 +1,2 @@
 bind generic 0 @sh -c "echo %(commit) | cut -c 1-7 | pbcopy" # copy commit hash to clipboard (truncated to 7 chars)
+set vertical-split = no
