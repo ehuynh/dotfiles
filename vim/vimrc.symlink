@@ -39,6 +39,7 @@ set relativenumber "relative line numbering
 set ruler "show the current column in the status bar
 set showmatch "hightlight matching brace
 set hlsearch "highlight all search results
+set showcmd "show the commands being typed in a status bar"
 
 " Indentation
 set expandtab " dont use tabs
