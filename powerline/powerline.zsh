@@ -1,2 +1,8 @@
+POWERLEVEL9K_CHANGESET_HASH_LENGTH=7
+POWERLEVEL9K_SHOW_CHANGESET=true
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vi_mode)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs)
+POWERLEVEL9K_VCS_GIT_HOOKS=(git-remotebranch)
+
 POWERLEVEL9K_MODE='nerdfont-complete'
 source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
