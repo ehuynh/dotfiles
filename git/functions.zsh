@@ -2,7 +2,7 @@ pr() {
     open "https://github.com/$(org_name)/$(repo_name)/pull/new/$(branch_name)"
 }
 
-gpf() {
+gpr() {
   git fetch origin && git reset --hard origin/$(branch_name)
 }
 
