@@ -1,4 +1,6 @@
 tap "eddieantonio/eddieantonio"
+tap "sambadevi/powerlevel9k"
+tap "caskroom/fonts"
 
 brew "chisel"
 brew "ctags"
@@ -12,3 +14,5 @@ brew "tldr"
 brew "bat"
 brew "thefuck"
 brew "imgcat"
+brew "powerlevel9k"
+cask "font-hack-nerd-font"
