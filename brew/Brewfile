@@ -1,3 +1,5 @@
+tap "eddieantonio/eddieantonio"
+
 brew "chisel"
 brew "ctags"
 brew "antigen"
@@ -9,3 +11,4 @@ cask "provisionql"
 brew "tldr"
 brew "bat"
 brew "thefuck"
+brew "imgcat"
