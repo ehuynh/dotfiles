@@ -1,6 +1,6 @@
 tap "eddieantonio/eddieantonio"
 tap "sambadevi/powerlevel9k"
-tap "caskroom/fonts"
+tap "homebrew/cask-fonts"
 
 brew "chisel"
 brew "ctags"
