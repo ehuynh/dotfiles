@@ -19,5 +19,5 @@ repo_name() {
 }
 
 branch_name() {
-  git name-rev --name-only HEAD
+  git branch --show-current
 }

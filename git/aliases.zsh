@@ -6,6 +6,7 @@ alias ga='git add'
 alias gapp='ga -p $(gs | pick | awk '\''{ print $2 }'\'')'
 
 alias gc='git commit -v'
+alias gcn='gc --no-verify'
 
 alias gp='imgcat $DOTFILES/git/push.gif & git push origin HEAD' # Pushes HEAD (current branch) to master
 alias gpf='gp --force-with-lease'

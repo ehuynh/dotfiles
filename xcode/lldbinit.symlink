@@ -11,12 +11,16 @@ command alias reveal_start expr (void)[(NSNotificationCenter*)[NSNotificationCen
 command alias reveal_stop expr (void)[(NSNotificationCenter*)[NSNotificationCenter defaultCenter] postNotificationName:@"IBARevealRequestStop" object:nil];
 
 # Chisel
-command script import /usr/local/opt/chisel/libexec/fblldb.py
+# command script import /usr/local/opt/chisel/libexec/fblldb.py
 
 # Fix Console po frame Printing
-display @import UIKit
-target stop-hook add -o "target stop-hook disable"
+#display @import UIKit
+#target stop-hook add -o "target stop-hook disable"
 
 ### Reveal LLDB commands support - DO NOT MODIFY
-command script import /Applications/Reveal.app/Contents/SharedSupport/Scripts/RevealServerCommands.py
+# command script import /Applications/Reveal.app/Contents/SharedSupport/Scripts/RevealServerCommands.py
+###
+
+### Reveal LLDB commands support - DO NOT MODIFY
+command script import /Users/edward.huynh/Library/Application\ Support/Reveal/RevealServerCommands.py
 ###

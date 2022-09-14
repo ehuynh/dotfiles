@@ -14,3 +14,4 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=30'
+ZSH_DISABLE_COMPFIX="true"

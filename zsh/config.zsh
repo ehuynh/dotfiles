@@ -4,6 +4,7 @@ export EDITOR=vim
 # enable color
 export CLICOLOR=1
 
-bindkey -v # vim on the prompt
-export KEYTIMEOUT=1 # transition between normal and insert mode quicker
+# bindkey -v # vim on the prompt
+# export KEYTIMEOUT=1 # transition between normal and insert mode quicker
 
+# bindkey '^r' # history-incremental-search-backward
