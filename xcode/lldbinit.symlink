@@ -22,5 +22,5 @@ command alias reveal_stop expr (void)[(NSNotificationCenter*)[NSNotificationCent
 ###
 
 ### Reveal LLDB commands support - DO NOT MODIFY
-command script import /Users/edward.huynh/Library/Application\ Support/Reveal/RevealServerCommands.py
+command script import /Users/edward.huynh/Library/Application\ Support/Reveal/RevealLLDBCommands/reveallldb
 ###

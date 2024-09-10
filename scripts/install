@@ -34,4 +34,4 @@ run_installers () {
 }
 
 install_dotfiles
-run_installers
+#run_installers
